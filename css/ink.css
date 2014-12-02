@@ -1,0 +1,273 @@
+
+img.center {
+margin: 0 auto;
+float: none;
+}
+img {
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+width: auto;
+max-width: 100%;
+clear: both;
+margin-right: auto;
+margin-left: auto;
+/*display: block;*/
+}
+img.display {
+width:100%;
+height:auto;
+max-width:650px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+img.logo {
+width:auto;
+display:block;
+}
+
+img.ad {
+width:auto;
+display: block;
+}
+
+
+h1.label {
+font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
+color: #ffffff;
+/*font-weight: bold;*/
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+white-space: pre-wrap;
+word-wrap: normal;
+-webkit-hyphens: none;
+-moz-hyphens: none;
+hyphens: none;
+margin-bottom: 3px;
+margin-top: 6px;
+}
+
+hr {
+margin:12px 1%;
+}
+p {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-size: 1.2em;
+line-height: 1.3em;
+margin: 12px 1%;
+}
+p strong {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+p.date {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 0.1em;
+padding-top: 0px;
+padding-bottom: 0px;
+text-align:center;
+}
+p b {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active strong {
+color: #2C6194;
+text-decoration: none;
+}
+p.overline {
+font-family: sans-serif;
+font-size: 0.8em;
+line-height: 1.2em;
+margin-bottom: 6px;
+text-align: center;
+color: #505050;
+}
+p.cutline {
+font-family: Georgia, "Droid Serif", sans-serif;
+font-style: italic;
+font-size: 1.0em;
+line-height: 1.4em;
+width:100%;
+height:auto;
+max-width:650px;
+margin: 12px;
+}
+p.credit {
+font-family: Georgia, "Droid Serif", sans-serif;font-size: 1.0em;
+font-style: italic;
+line-height: 1.2em;
+margin-top: 2px;
+margin-bottom: 4px;
+margin-left: 12px;
+margin-right: 12px;
+width:100%;
+height:auto;
+max-width:650px;
+}
+p.photohed {
+font-weight: bold;
+font-size: 1.1em;
+line-height: 1.1em;
+margin-bottom: 3px;
+color: #851604;
+padding-bottom: 6px;
+}
+p.footer {
+font-family: -apple-system-footnote, 'Roboto', Trebuchet, sans-serif;
+font-size: 12px;
+color: #222222;
+text-align: center;
+padding: 6px;
+}
+h6.tvlist {
+font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 18px;
+line-height: 1.1em;
+color: #2B3F5C;
+padding-top: 12px;
+word-wrap: normal;
+-webkit-hyphens: none;
+-moz-hyphens: none;
+hyphens: none;
+}
+body {
+width: 100% !important;
+max-width:650px;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+margin: 0;
+padding: 0;
+margin-right: auto;
+margin-left: auto;
+}
+table.center,
+td.center {
+text-align: center;
+}
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+text-align: center;
+}
+span.center {
+width: 100%;
+text-align: center;
+}
+img {
+padding: 3px;
+}
+table.body {
+height: 100%;
+width: 100%;
+}
+table.container {
+width: 100%;
+margin: 0 auto;
+text-align: inherit;
+padding-left: 3%;
+padding-right: 3%;
+}
+td.expander {
+visibility: hidden;
+width: 0px;
+padding: 0 !important;
+}
+td.wrapper {
+padding: 10px 10px 0px 0px;
+position: relative;
+}
+table[class="body"] .wrapper {
+padding-right: 0 !important;
+}
+table.ad {
+	max-width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+tr.ad {
+	margin-left:auto;
+	margin-right:auto;
+}
+table.row td.last,
+table.container td.last {
+padding-right: 0px;
+}
+/* Panels */
+.panel {
+background: #2C6194;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;
+}
+.aftpanel {
+background: #2C6194;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important; 
+}
+.sportspanel {
+background: #f68a4a;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;  
+}
+.prepspanel {
+background: #0C44A3;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important; 
+}
+.vivapanel {
+background: #ffffff;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;
+}
+.entpanel {
+background: #C00000;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;
+}
+.cannabistpanel {
+background: #913327;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;
+}
+.sub-grid table {
+width: 100%;
+}
+.sub-grid td.sub-columns {
+padding-bottom: 0;
+}
+blockquote {
+font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+font-size: 1.3em;
+font-style: italic;
+line-height: 1.4em
+}
+p.social {
+display: inline-block;
+}

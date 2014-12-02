@@ -1,0 +1,270 @@
+/*Styles for Breaking News Alert E-mails
+Author: Eric Lubbers
+Organization: The Denver Post
+LATEST UPDATE: 11/26/2014*/
+
+/*IMAGE STYLES*/
+
+img.center {
+margin: 0 auto;
+float: none;
+}
+img {
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+width: auto;
+max-width: 100%;
+clear: both;
+margin-right: auto;
+margin-left: auto;
+padding:3px;
+/*display: block;*/
+}
+img.display {
+width:100%;
+height:auto;
+max-width:650px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+img.logo {
+width:280px;
+display:block;
+padding-top:6px;
+margin:0 auto;
+}
+
+img.ad {
+width:auto;
+display: block;
+}
+
+/*TYPOGRAPHY*/
+
+h2.breaking {
+  font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Arial, sans-serif;
+  font-size: 1.4em; 
+  text-transform: uppercase;
+  margin-top:12px;
+  padding-top:6px;
+  padding-bottom:6px;
+  background-color:#cc0000;
+  color:#ffffff;
+  font-weight: bold;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
+h3.headline {
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 2em; 
+  font-weight:normal;
+  margin:0px;
+  padding: 0px 10%;
+  color:#000000;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
+p.text {
+  font-family: -apple-system-body, 'Roboto', Helvetica Neue, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  text-decoration:underline;
+  color:#336699;
+  text-align: center;
+  margin:8px;
+  padding: 0px 15%;
+}
+
+p.cutline {
+  font-family: -apple-system-body, Georgia, serif;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  margin:8px;
+  padding: 0px 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1.label {
+  font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  margin-bottom: 3px;
+  margin-top:6px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p {
+   font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
+   font-size:1.1em;
+   line-height: 1.4em;
+
+}
+
+a {
+  color:#074DA8;
+  text-decoration: none;
+}
+
+p.footer {
+  font-family: -apple-system-footnote, 'Roboto', Trebuchet, sans-serif;
+  font-size: 12px;
+  color: #222222;
+  text-align: center;
+  padding:6px;
+}
+
+body {
+width: 100% !important;
+max-width:650px;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+margin: 0;
+padding: 0;
+margin-right: auto;
+margin-left: auto;
+}
+
+a:hover { 
+  color: #2795b6 !important;
+}
+
+a:active { 
+  color: #2795b6 !important;
+}
+
+a:visited { 
+  color: #2ba6cb !important;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a {
+  color: #2ba6cb;
+}
+
+/*EDITED ZURB INK STYLES*/
+
+table.center, td.center {
+  text-align: center;
+}
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+  text-align: center;
+}
+
+span.center {
+  width: 100%;
+  text-align: center;
+}
+
+
+table.body {
+  height: 100%;
+  width: 100%;
+  max-width: 
+}
+
+table.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: inherit;
+  padding-left:3%;
+  padding-right:3%;
+}
+
+
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important;
+}
+
+td.wrapper {
+  padding: 10px 20px 0px 0px;
+  position: relative;
+}
+
+  table[class="body"] .wrapper {
+    
+    padding-right: 0 !important;
+  }
+
+table.row td.last,
+table.container td.last {
+  padding-right: 0px;
+}
+
+td.center {
+  width: 100%;
+}
+
+/* Panels */
+
+.panel {
+  background: #2C6194;
+  width:100%;
+  border: 1px solid #d9d9d9;
+  padding: 0px !important;
+}
+
+.sub-grid table {
+  width: 100%;
+}
+
+.sub-grid td.sub-columns {
+  padding-bottom: 0;
+}
+
+/* Alignment & Visibility Classes */
+
+table.center, td.center {
+  text-align: center;
+}
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+  text-align: center;
+}
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+

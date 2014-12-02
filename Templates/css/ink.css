@@ -22,6 +22,14 @@ display: block;
 margin-right: auto;
 margin-left: auto;
 }
+blockquote p {
+	font-size:0.8em;
+}
+img.social {
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
 img.logo {
 width:auto;
 display:block;
@@ -54,14 +62,14 @@ margin:12px 1%;
 }
 p {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
-font-size: 1.2em;
-line-height: 1.3em;
+font-size: 1.1em;
+line-height: 1.2em;
 margin: 12px 1%;
 }
 p strong {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
-font-size: 1.2em;
+font-size: 1.1em;
 line-height: 1.2em;
 padding-top: 4px;
 padding-bottom: 4px;
@@ -78,10 +86,13 @@ text-align:center;
 p b {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
-font-size: 1.2em;
+font-size: 1.1em;
 line-height: 1.2em;
 padding-top: 4px;
 padding-bottom: 4px;
+}
+p em {
+font-size:0.9em;
 }
 a:link,
 a:visited,

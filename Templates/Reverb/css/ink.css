@@ -71,8 +71,36 @@ font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
 font-size: 1.2em;
 line-height: 1.2em;
+padding: 4px;
+color: #ffffff;
+background-color: #000000;
+}
+p strong a {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
 padding-top: 4px;
 padding-bottom: 4px;
+background-color: #000000;
+}
+p b a {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
+background-color: #000000;
+}
+p b {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
+background-color: #000000;
 }
 p.date {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
@@ -83,17 +111,11 @@ padding-top: 0px;
 padding-bottom: 0px;
 text-align:center;
 }
-p b {
-font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
-font-weight: bold;
-font-size: 1.2em;
-line-height: 1.2em;
-padding-top: 4px;
-padding-bottom: 4px;
-}
+
 p em {
 font-size:0.9em;
 }
+
 
 blockquote.quote {
   font-size: 1.2em;
@@ -156,6 +178,14 @@ font-size: 12px;
 color: #222222;
 text-align: center;
 padding: 6px;
+}
+p.nav,
+p.nav a{
+	text-align:center;
+	font-weight:bold;
+	padding:0;
+	font-size: 1.0em;
+	color:#ffffff;
 }
 h6.tvlist {
 font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
@@ -273,7 +303,13 @@ border: 0px solid #d9d9d9;
 padding: 0px !important;
 }
 .cannabistpanel {
-background: #913327;
+background: #2c2119;
+min-width: 100%;
+border: 0px solid #d9d9d9;
+padding: 0px !important;
+}
+.rvrb {
+background: #2c2119;
 min-width: 100%;
 border: 0px solid #d9d9d9;
 padding: 0px !important;

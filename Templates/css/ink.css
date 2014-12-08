@@ -1,3 +1,8 @@
+/*DENVER POST NEWSLETTER MASTER STYLE SHEET
+By Eric Lubbers, The Denver Post
+Some styles from Zurb Foundation's Ink Framework. */
+
+/*IMAGE STYLES*/
 
 img.center {
 margin: 0 auto;
@@ -13,6 +18,7 @@ clear: both;
 margin-right: auto;
 margin-left: auto;
 /*display: block;*/
+padding: 3px;
 }
 img.display {
 width:100%;
@@ -40,7 +46,8 @@ width:auto;
 display: block;
 }
 
-
+/*TYPOGRAPHY*/
+/*LABELS*/
 h1.label {
 font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
 color: #ffffff;
@@ -56,10 +63,20 @@ hyphens: none;
 margin-bottom: 3px;
 margin-top: 6px;
 }
-
-hr {
-margin:12px 1%;
+h6.tvlist {
+font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 18px;
+line-height: 1.1em;
+color: #2B3F5C;
+padding-top: 12px;
+word-wrap: normal;
+-webkit-hyphens: none;
+-moz-hyphens: none;
+hyphens: none;
 }
+/*PARAGRAPHS & BOLD LABELS*/
 p {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-size: 1.1em;
@@ -74,15 +91,6 @@ line-height: 1.2em;
 padding-top: 4px;
 padding-bottom: 4px;
 }
-p.date {
-font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
-font-weight: bold;
-font-size: 1.2em;
-line-height: 0.1em;
-padding-top: 0px;
-padding-bottom: 0px;
-text-align:center;
-}
 p b {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
@@ -94,16 +102,18 @@ padding-bottom: 4px;
 p em {
 font-size:0.9em;
 }
-
-blockquote.quote {
-  font-size: 1.2em;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-left: 15px;
-  border-left: 3px solid #ccc;
-} 
-
+p.quote {
+font-size: 1.3em;
+font-weight: bold;
+font-family: Georgia, "Droid Serif", serif;
+text-align: center;
+}
+p.quotesource {
+font-size: 1.1em;
+font-family: Georgia, "Droid Serif", serif;
+text-align: center;
+}
+/*LINKS*/
 a:link,
 a:visited,
 a:hover,
@@ -111,36 +121,18 @@ a:active strong {
 color: #2C6194;
 text-decoration: none;
 }
-p.overline {
-font-family: sans-serif;
-font-size: 0.8em;
-line-height: 1.2em;
-margin-bottom: 6px;
-text-align: center;
-color: #505050;
-}
+/*PHOTO TEXT*/
 p.cutline {
-font-family: Georgia, "Droid Serif", sans-serif;
-
-font-size: 1.0em;
-line-height: 1.4em;
-width:100%;
-height:auto;
-max-width:650px;
-margin: 12px;
+font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+font-size: 0.9em;
+line-height: 1.1em;
+margin: 1% 5%;
 }
 p.credit {
-font-family: Georgia, "Droid Serif", sans-serif;font-size: 1.0em;
-font-style: italic;
-font-size:0.9em;
-line-height: 1.0em;
-margin-top: 2px;
-margin-bottom: 4px;
-margin-left: 12px;
-margin-right: 12px;
-width:100%;
-height:auto;
-max-width:650px;
+font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+font-size: 0.9em;
+line-height: 1.1em;
+margin: 1% 5%;
 }
 p.photohed {
 font-weight: bold;
@@ -157,19 +149,24 @@ color: #222222;
 text-align: center;
 padding: 6px;
 }
-h6.tvlist {
-font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
-font-weight: bold;
-text-align: center;
-font-size: 18px;
-line-height: 1.1em;
-color: #2B3F5C;
-padding-top: 12px;
-word-wrap: normal;
--webkit-hyphens: none;
--moz-hyphens: none;
-hyphens: none;
+
+/*OTHER*/
+hr {
+margin:12px 1%;
 }
+
+blockquote {
+font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+font-size: 1.3em;
+font-style: italic;
+line-height: 1.4em
+}
+
+p.social {
+display: inline-block;
+}
+
+/*INK STYLES*/
 body {
 width: 100% !important;
 max-width:650px;
@@ -196,9 +193,7 @@ span.center {
 width: 100%;
 text-align: center;
 }
-img {
-padding: 3px;
-}
+
 table.body {
 height: 100%;
 width: 100%;
@@ -283,13 +278,4 @@ width: 100%;
 }
 .sub-grid td.sub-columns {
 padding-bottom: 0;
-}
-blockquote {
-font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
-font-size: 1.3em;
-font-style: italic;
-line-height: 1.4em
-}
-p.social {
-display: inline-block;
 }

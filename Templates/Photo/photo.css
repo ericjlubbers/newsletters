@@ -15,7 +15,7 @@ text-decoration: none;
 width: auto;
 max-width: 100%;
 clear: both;
-/*display: block;*/
+display: block;
 }
 img.display {
 width:100%;
@@ -80,7 +80,7 @@ line-height: 1.3em;
 margin: 12px 1%;
 }
 p strong {
-font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-family: Georgia, "Droid Serif", serif;
 font-weight: bold;
 font-size: 1.2em;
 line-height: 1.2em;
@@ -88,7 +88,7 @@ padding-top: 4px;
 padding-bottom: 4px;
 }
 p b {
-font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+font-family: Georgia, "Droid Serif", serif;
 font-weight: bold;
 font-size: 1.2em;
 line-height: 1.2em;
@@ -97,6 +97,12 @@ padding-bottom: 4px;
 }
 p em {
 font-size:0.9em;
+}
+p.note {
+font-family: Georgia, "Droid Serif", serif;
+font-style: italic;
+font-size: 1.1em;
+line-height: 1.3em;
 }
 p.quote {
 font-size: 1.3em;
@@ -114,7 +120,7 @@ a:link,
 a:visited,
 a:hover,
 a:active strong {
-color: #2C6194;
+color: #24507A;
 text-decoration: none;
 }
 /*PHOTO TEXT*/
@@ -122,13 +128,13 @@ p.cutline {
 font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
 font-size: 0.9em;
 line-height: 1.1em;
-margin: 1% 5%;
+margin: 1% 1%;
 }
 p.credit {
 font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
 font-size: 0.9em;
 line-height: 1.1em;
-margin: 1% 5%;
+margin: 1% 1%;
 }
 p.photohed {
 font-weight: bold;

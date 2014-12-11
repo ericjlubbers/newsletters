@@ -109,6 +109,15 @@ font-size: 1.1em;
 font-family: Georgia, "Droid Serif", serif;
 text-align: center;
 }
+p.note {
+font-family: Georgia, "Droid Serif", serif;
+font-style: italic;
+font-size: 1em;
+line-height: 1.1em;
+color: grey;
+margin:2%;
+font-variant: italic;
+}
 /*LINKS*/
 a:link,
 a:visited,

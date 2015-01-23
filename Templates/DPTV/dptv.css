@@ -68,18 +68,26 @@ p {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-size: 1.1em;
 line-height: 1.3em;
-margin: 12px 1%;
+margin: 12px 0;
 color: #212121;
 }
-p.presents {
+/*p.presents {
 font-weight: bold;
 font-size: 1.4em;
 color: #FC4C4C;
 display: inline-block;
 margin-bottom:3px;
 vertical-align: top;
+}*/
+h1.header {
+font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
+font-weight: bold;
+font-size: 1.4em;
+line-height: 1.4em;
+padding-top: 4px;
+padding-bottom: 4px;
 }
-p strong {
+/*p strong {
 font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
 font-weight: bold;
 font-size: 1.4em;
@@ -94,7 +102,7 @@ font-size: 1.2em;
 line-height: 1.2em;
 padding-top: 4px;
 padding-bottom: 4px;
-}
+}*/
 p em {
 font-size:0.9em;
 }
@@ -121,9 +129,8 @@ a:link,
 a:visited,
 a:hover,
 a:active strong {
-color: #212121;
+color: #0D4F8B;
 text-decoration: none;
-text-transform: uppercase;
 }
 /*PHOTO TEXT*/
 p.cutline {
@@ -169,7 +176,7 @@ display: inline-block;
 /*INK STYLES*/
 body {
 width: 100% !important;
-max-width:650px;
+max-width:550px;
 -webkit-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 margin: 0;

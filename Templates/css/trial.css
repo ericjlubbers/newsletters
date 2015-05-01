@@ -20,21 +20,10 @@ clear: both;
 img.display {
 width:100%;
 max-width:650px;
-float: none;
-display: block;
-margin-right: auto;
-margin-left: auto;
-/*padding:6px;
-*/}
-
-img.full {
-width:100%;
-max-width:650;
 display: block;
 margin-right: auto;
 margin-left: auto;
 }
-
 blockquote p {
 	font-size:0.8em;
 }
@@ -59,17 +48,16 @@ padding:0;
 h1.label {
 font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
 color: #ffffff;
-font-size: 2.2em;
-font-weight: normal;
+/*font-weight: bold;*/
 text-transform: uppercase;
-letter-spacing: 1px;
+letter-spacing: 2px;
 text-align: center;
 white-space: pre-wrap;
 word-wrap: normal;
 -webkit-hyphens: none;
 -moz-hyphens: none;
 hyphens: none;
-margin-bottom: 0px;
+margin-bottom: 3px;
 margin-top: 6px;
 }
 h6.tvlist {
@@ -89,22 +77,24 @@ hyphens: none;
 p {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-size: 1.1em;
-line-height: 1.2em;
-margin: 2% 1%;
-text-align: left;
-color:#333333;
+line-height: 1.3em;
+margin: 12px 1%;
 }
 p strong {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
-font-size: 1.3em;
+font-size: 1.2em;
 line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
 }
 p b {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
-font-size: 1.3em;
+font-size: 1.2em;
 line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
 }
 p em {
 font-size:0.9em;
@@ -125,7 +115,7 @@ font-family: Georgia, "Droid Serif", serif;
 font-style: italic;
 font-size: 1em;
 line-height: 1.1em;
-color: #35586C;
+color: grey;
 margin:2%;
 font-variant: italic;
 }
@@ -134,7 +124,7 @@ a:link,
 a:visited,
 a:hover,
 a:active strong {
-color: #0D4F8B;
+color: #2C6194;
 text-decoration: none;
 }
 /*PHOTO TEXT*/
@@ -148,9 +138,8 @@ p.credit {
 font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
 font-size: 0.9em;
 line-height: 1.1em;
-/*margin: 1% 1%;*/
-font-style: italic;
 text-align: center;
+font-style: italic;
 }
 p.footer {
 font-family: -apple-system-footnote, 'Roboto', Trebuchet, sans-serif;
@@ -166,23 +155,10 @@ margin:12px 1%;
 }
 
 blockquote {
-	font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
-	font-size: 1.2em;
-	font-weight: bold;
-	line-height: 1.2em;
-	padding:0;
-	margin:0 8%;
-}
-
-p.source {
-	font-size:0.8em;
-	line-height: 1.3em;
-	text-align: center;
-	font-weight:normal;
-	font-style: italic;
-	font-family:Georgia,serif;
-	padding:2px;
-	margin:2px;
+font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+font-size: 1.3em;
+font-style: italic;
+line-height: 1.4em
 }
 
 p.social {

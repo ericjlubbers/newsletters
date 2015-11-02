@@ -261,6 +261,10 @@ tr.ad {
 	margin-left:auto;
 	margin-right:auto;
 }
+td.rvrb {
+	width:100%;
+	
+}
 table.row td.last,
 table.container td.last {
 padding-right: 0px;

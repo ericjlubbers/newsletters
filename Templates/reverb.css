@@ -112,10 +112,22 @@ color:#333333;
 h2 {
 font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
 font-weight: bold;
-margin: 1em 0px 1% 1%;
 font-size: 1.8em;
 line-height: 1.4em;
 text-align: left;
+background-color: #000000;
+color: #ffffff;
+padding-left: 1%;
+}
+h2 a {
+font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+color: #ffffff;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1.2em;
+padding-top: 4px;
+padding-bottom: 4px;
+background-color: #000000;
 }
 p.number {
 	font-size: 5em;

@@ -156,7 +156,7 @@ p.leader {
 hr {
 width: 300px;
 margin-top:2.2em;
-border-style:dashed;
+border-style:double;
 }
 
 blockquote {
@@ -182,6 +182,8 @@ p.source {
 p.social {
 display: inline-block;
 }
+
+
 
 /*INK STYLES*/
 body {

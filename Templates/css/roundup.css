@@ -1,0 +1,361 @@
+/*DENVER POST NEWSLETTER MASTER STYLE SHEET
+By Eric Lubbers, The Denver Post
+Some styles from Zurb Foundation's Ink Framework. */
+
+/*IMAGE STYLES*/
+
+img.center {
+	margin: 0 auto;
+	float: none;
+}
+img {
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+	width: auto;
+	max-width: 100%;
+	clear: both;
+	/*display: block;*/
+}
+img.display {
+	width:100%;
+	max-width:650px;
+	float: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+/*padding:6px;
+*/}
+
+img.full {
+	width:100%;
+	max-width:650;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote p {
+	font-size:0.8em;
+}
+
+blockquote {margin-top:1em;}
+
+img.social {
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+img.logo {
+	width:auto;
+	display:block;
+}
+
+img.ad {
+	width:auto;
+	display: block;
+	padding:0;
+}
+
+/*TYPOGRAPHY*/
+/*LABELS*/
+h1.label {
+	font-family: Georgia, "Droid Serif", -apple-system-headline, serif;
+	color: #ffffff;
+	font-size: 2.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	white-space: pre-wrap;
+	word-wrap: normal;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	margin-bottom: 0px;
+	margin-top: 6px;
+}
+h6.tvlist {
+	font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Trebuchet, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.1em;
+	color: #2B3F5C;
+	padding-top: 12px;
+	word-wrap: normal;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+/*PARAGRAPHS & BOLD LABELS*/
+p {
+	font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	margin: 5% 1%;
+	text-align: left;
+	color:#333333;
+}
+li {
+	font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	text-align: left;
+	color:#333333;
+}
+
+
+h2 {
+	font-family: -apple-system-headline, "Roboto", 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	margin: 1em 0px 1% 1%;
+	font-size: 1.8em;
+	line-height: 1.4em;
+	text-align: left;
+}
+p.number {
+	font-size: 5em;
+	text-align: center;
+	font-weight: bold;
+	margin:1% 1%;
+}
+p.numbercred {
+	margin-top:0;
+}
+
+div.sponsor {
+	background-color: #e6e6e6;
+	padding: 3%
+}
+
+p.sponsorhed {
+	color: #ffffff;
+	background-color: #73c267;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+	text-align: center;
+	margin-bottom:.5em;
+}
+
+p.sponsor {
+	margin:0;
+	padding:0;
+}
+
+p.signup {
+	font-weight: bold;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+/*LINKS*/
+/*a:link,
+a:visited,
+a:hover,
+a:active strong {
+color: #0D4F8B;
+text-decoration: none;
+}*/
+
+/*LINKS, EXPERIMENT*/
+a:link,
+a:visited,
+a:hover,
+a:active strong {
+	color: #0D4F8B;
+	text-decoration: none;
+	border-style:dotted;
+	border-top-style:none;
+	border-right-style: none;
+	border-left-style: none;
+	border-width: 2px;
+}
+
+a.footer:link,
+a.footer:visited,
+a.footer:hover,
+a.footer:active {
+	text-decoration: none;
+	color: #0D4F8B;
+	border-style: none; 
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active strong {
+	color: #0D4F8B;
+	text-decoration: none;
+	border-style:none;
+}
+
+
+
+
+p.footer {
+	font-family: -apple-system-footnote, 'Roboto', Trebuchet, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	text-align: left;
+	padding: 0px;
+	margin:0px;
+}
+p.byline {
+	font-size: 0.9em;
+	margin:0;
+	padding:0;
+}
+p.leader {
+	font-size:0.8em;
+	color:#7e7e7e;
+	margin:0;
+	text-align:center;
+}
+
+/*OTHER*/
+hr {
+	width: 300px;
+	margin-top:2.2em;
+	border-style:dashed;
+}
+
+blockquote {
+	font-family: Georgia, 'Droid Serif', -apple-system-headline, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.6em;
+	padding-top: 1em;
+	margin:0 8%;
+}
+
+p.source {
+	font-size:0.8em;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight:normal;
+	font-style: italic;
+	font-family:Georgia,serif;
+	padding-top:1em;
+	margin:0;
+}
+
+p.social {
+	display: inline-block;
+}
+
+/*INK STYLES*/
+body {
+	width: 100% !important;
+	max-width:650px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+table.center,
+td.center {
+	text-align: center;
+}
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+	text-align: center;
+}
+span.center {
+	width: 100%;
+	text-align: center;
+}
+
+table.body {
+	height: 100%;
+	width: 100%;
+}
+/*table.container {
+width: 100%;
+margin: 0 auto;
+text-align: inherit;
+padding-left: 3%;
+padding-right: 3%;
+}*/
+td.expander {
+	visibility: hidden;
+	width: 0px;
+	padding: 0 !important;
+}
+td.wrapper {
+	padding: 0px;
+	position: relative;
+}
+table[class="body"] .wrapper {
+	padding-right: 0 !important;
+}
+table.ad {
+	max-width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+tr.ad {
+	margin-left:auto;
+	margin-right:auto;
+}
+table.row td.last,
+table.container td.last {
+	padding-right: 0px;
+}
+/* Panels */
+.panel {
+	background: #2C6194;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important;
+}
+.aftpanel {
+	background: #2C6194;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important; 
+}
+.sportspanel {
+	background: #f68a4a;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important;  
+}
+.prepspanel {
+	background: #0C44A3;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important; 
+}
+.vivapanel {
+	background: #ffffff;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important;
+}
+.entpanel {
+	background: #C00000;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important;
+}
+.cannabistpanel {
+	background: #913327;
+	min-width: 100%;
+	border: 0px solid #d9d9d9;
+	padding: 0px !important;
+}
+.sub-grid table {
+	width: 100%;
+}
+.sub-grid td.sub-columns {
+	padding-bottom: 0;
+}

@@ -60,6 +60,21 @@ h2.breaking {
   hyphens: none;
 }
 
+h2.rox {
+  font-family: -apple-system-headline, 'Roboto', Helvetica Neue, Arial, sans-serif;
+  font-size: 1.4em; 
+  text-transform: uppercase;
+  margin-top:12px;
+  padding-top:6px;
+  padding-bottom:6px;
+  background-color:#333366;
+  color:#ffffff;
+  font-weight: bold;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
 h3.headline {
   font-family: 'Droid Serif', Georgia, serif;
   font-size: 2em; 
